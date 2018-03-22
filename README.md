@@ -5,3 +5,4 @@
 1. XML 配置     dubbo和test
 2. 注解配置     dubbo2和test2
 3. API 配置     dubbo3和test3
+4. springboot整合spring-boot-starter-dubbo  dubbo4和test4
