@@ -18,7 +18,7 @@ public class Test1 {
     /**
      * start注解配置
      */
-    @Reference(url = "dubbo://127.0.0.1:20880")
+    @Reference
     ApiService apiService;
 
 

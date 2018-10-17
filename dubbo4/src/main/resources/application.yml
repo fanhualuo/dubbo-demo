@@ -1,0 +1,20 @@
+
+server.port: 7074
+spring.application.name: dubbo-spring-boot-starter4
+
+spring:
+  dubbo:
+    application:
+      name: dubbo-spring-boot-starter4
+    registry:
+      id: dubbo-registry
+      address: zookeeper://127.0.0.1:2181
+    provider:
+      version: 1.0.0   # 生产者使用版本
+    protocol:
+      name: dubbo
+      port: 24880
+    consumer:
+      version: 1.0.0   # 消费者使用版本
+      timeout: 20000   # 超时时间
+      check: false     # 默认为true
